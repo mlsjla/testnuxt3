@@ -3,17 +3,18 @@
   "scripts": {
     "dev": "nuxi dev --port=3100",
     "build": "nuxi build",
+    "generate": "nuxi generate",
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "@pinia/nuxt": "^0.1.8",
-    "@vueuse/nuxt": "^7.4.2",
+    "@vueuse/nuxt": "^8.2.6",
     "autoprefixer": "^10.4.2",
     "bootstrap-icons": "^1.8.1",
     "daisyui": "^2.0.6",
     "element-plus": "^2.1.9",
     "eslint": "^8.5.0",
-    "nuxt3": "^3.0.0-27496606.e43ba6e",
+    "nuxt": "npm:nuxt3@^3.0.0-rc.0-27508091.78fcbcf",
     "pinia": "^2.0.11",
     "pinia-plugin-persistedstate": "^1.5.0",
     "postcss": "^8.4.6",
