@@ -12,6 +12,7 @@
 
 </script>
 
+
 <style lang="scss">
 // @import "~/assets/scss/tailwind.scss";
 
